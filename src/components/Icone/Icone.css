@@ -1,0 +1,33 @@
+
+
+/* .list {
+     display: block;
+     margin: 5% 0;
+     list-style: none;
+     text-align: center;  
+     text-decoration: none; 
+     justify-content: space-between;
+
+} */
+
+
+
+ .list a {
+    font-size: 60px;
+    color:  rgba(189, 58, 58, 0.836);
+    margin: 30px;
+}
+
+
+a:hover {
+    color:rgb(24, 23, 23);
+}
+
+
+@media screen and (min-width: 320px) {
+    .list a {
+        overflow: auto; 
+        font-size: 39px;
+        margin: 15px;
+    }
+  }

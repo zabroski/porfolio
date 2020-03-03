@@ -1,0 +1,119 @@
+
+.music-app {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+img{
+    width: 90%;
+    max-width: 100%;
+    align-items: center;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+} 
+
+
+
+
+.music-description {
+    text-align: justify ;
+    margin-top: 0; 
+    font-size: 22px;
+    margin-left: 15px;
+    margin-right: 15px;  
+}
+
+.music-title {
+    text-align: center;
+    font-size: 29px;
+    text-transform: uppercase;
+}
+
+
+
+ .goBackLink a  {
+    display: flex;
+    align-self: flex-end;
+}  
+
+/* .carouselContainer {
+    display: flex;
+    text-align: justify;
+} */
+
+
+/* .description{
+    width: 450px;
+    margin-left: 50px;
+    float: left;
+} */
+
+/* .carouselContainer{
+    width: 400px;
+    float: right;
+    margin-right: 100px;
+    height: 250px;
+} */
+
+
+/* .carousel__slider--horizontal{
+    height: 209px;
+} */
+/* 
+.carouselContainer img{
+    width: 450px; 
+} */
+
+
+/* .image-container {
+    display: flex;
+   
+} */
+
+/* .musicApp {
+    overflow: auto;
+   
+} */
+/* .goBackLink  {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 170px; 
+} */
+ 
+/* .goBackLink a {
+    color: green;
+
+} */
+
+.goBackLink a:hover {
+ color: rgb(193, 24, 24);
+}
+
+/* 
+.sliderr{
+    margin-top: 20px;
+
+} */
+.back {
+    color: green;
+    font-size: 18px;
+    border-radius: 7px;
+    margin-right: 5px;
+    outline: none;
+    /* margin-top: 10px; */
+}
+.next {
+    color: green;
+    font-size: 18px;
+    border-radius: 7px;
+    margin-left: 5px;
+    outline: none;
+    /* margin-top: 10px; */
+}
+
+/* 
+.musicHOne{
+    margin-right: 700px
+} */
